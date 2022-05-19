@@ -18,6 +18,6 @@ describe('Firt Try of AutoTesting', async () => {
     const inPutPswr = await $('#password').getValue();
     await console.log(inPutName, inPutPswr);
     await $('.StyledBaseButton-gyTOrt').click();
-    // await $('.StyledButtonBlue-dSzbFq').waitForExist();
+    await $('.StyledButtonBlue-dSzbFq').waitForExist();
   });
 });
